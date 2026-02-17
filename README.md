@@ -147,9 +147,10 @@ Rationale:
 - Observatory Exit cap rate: ~8%
 
 ### Operating Assumptions
-- Vacancy: ~10%  
-- Rent growth: ~3% annually  
-- Expense growth: ~3% annually  
+- Vacancy: ~10%
+- Credit Loss: ~1%  
+- Rent growth: ~1.5% annually  
+- Expense growth: ~2% annually  
 
 ---
 
@@ -158,7 +159,9 @@ Rationale:
 Investment structuring reflects institutional financing conditions:
 
 - Expected leverage: ~50% LTV  
-- Debt source: insurance / CMBS-style financing  
+- Debt source: insurance / CMBS-style financing
+- 10-year Treasury: ~3.5%
+- Credit spread: ~350 bps
 - Interest rate environment: ~7%  
 - Long-term fixed-rate orientation  
 
