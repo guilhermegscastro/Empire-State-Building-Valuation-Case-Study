@@ -150,13 +150,12 @@ This mirrors real institutional workflows where:
 ## How to Navigate This Case Study
 
 1. Open the ARGUS file to review building valuation.
-2. Locate the **present value output** used as acquisition price.
-3. Open the Excel model.
-4. Review consolidation of:
+2. Open the Excel model.
+3. Review consolidation of:
 
    * Building valuation
    * Observatory operations
-5. Analyze final investment returns and sensitivities.
+4. Analyze final investment returns and sensitivities (Property Summary).
 
 ---
 
