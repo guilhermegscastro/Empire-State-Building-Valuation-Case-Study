@@ -2,16 +2,14 @@
 
 ## 📌 Overview
 
-This case study models the valuation of the Empire State Building investment using a two-stage institutional workflow:
+This case study models the valuation of the Empire State Building investment using a two-stage workflow:
 
-1. **ARGUS Enterprise** used to determine the **purchase price (present value) of the building operations**
+1. **ARGUS Enterprise** used to determine the **purchase price (present value) of the building mixed-use retail/office leasing operations**
 2. **Excel financial model** used to **consolidate the full investment**, combining:
 
    * Building valuation (from ARGUS)
    * Observatory business component
    * Final investment return metrics
-
-This reflects how real-world CRE underwriting separates **asset valuation** from **investment structuring**.
 
 ---
 
@@ -24,10 +22,9 @@ ARGUS is used to:
 * Model leases and rent roll
 * Project operating cash flows
 * Apply market leasing assumptions
+* Apply financial market assumptions
 * Generate stabilized NOI
 * Determine **present value / acquisition price of the building**
-
-This represents the institutional CRE valuation step.
 
 **ARGUS - Tenant Summary**
 
@@ -53,13 +50,10 @@ This represents the institutional CRE valuation step.
 
 The Excel model integrates:
 
-* ARGUS-derived building purchase price
+* ARGUS-derived building purchase price, rent roll and cash flow
 * Observatory operating income
 * Capital structure assumptions
-* Investment cash flows
 * Return metrics
-
-This reflects the **actual deal-level underwriting**.
 
 **Excel — Observatory Financials**
 
@@ -71,7 +65,7 @@ This reflects the **actual deal-level underwriting**.
 
 ### 1. Cash Flow Construction
 
-* Building operational NOI from ARGUS
+* Building operational Cash Flow from ARGUS
 * Observatory standalone income stream
 * Combined property-level cash flow
 
@@ -81,11 +75,13 @@ This reflects the **actual deal-level underwriting**.
 
 Excel calculates:
 
+* Cap rate
 * IRR
-* NPV
+* Hold Period Avg. Cash on Cash
 * Equity multiple
-* Exit valuation
-* Investment performance
+* LTV
+* DSCR
+* Debt Yield
 
 ---
 
@@ -95,8 +91,8 @@ Stress tests performed on:
 
 * Cap rate
 * Purchase price
-* Observatory performance
-* Rent assumptions
+* Equity multiple
+* IRR
 
 **Excel — Consolidated Pro Forma**
 
@@ -106,9 +102,10 @@ Stress tests performed on:
 
 ## 🛠️ Files Included
 
-### ARGUS Enterprise File (.ae)
+### ARGUS Enterprise File (.avux)
 
-* Lease abstraction
+* Rent Roll
+* Market leasing assumptions (MLA)
 * Cash flow projections
 * NOI stabilization
 * Building present value (purchase price)
@@ -116,15 +113,15 @@ Stress tests performed on:
 ### Excel Model (.xlsx)
 
 * Observatory financial model
+* Building financial model
 * Consolidated investment underwriting
-* Return metrics
 * Sensitivity analysis
 
 ---
 
 ## How to Navigate This Case Study
 
-1. Open the ARGUS file to review building valuation.
+1. Open the ARGUS file to review building leasing operation valuation.
 2. Open the Excel model.
 3. Review consolidation of:
 
