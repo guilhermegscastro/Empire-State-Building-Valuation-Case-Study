@@ -1,110 +1,114 @@
-# ESB Case Study — ARGUS Enterprise & Excel Valuation
+# ESB Case Study — ARGUS Valuation & Excel Investment Consolidation
 
 ## Overview
 
-This case study analyzes a commercial real estate asset using two industry-standard approaches:
+This case study models the valuation of the Empire State Building investment using a two-stage institutional workflow:
 
-* **ARGUS Enterprise model (.ae file)** for institutional-grade cash flow modeling
-* **Excel financial model (.xlsx)** for transparent, manual underwriting and validation
+1. **ARGUS Enterprise** used to determine the **purchase price (present value) of the building operations**
+2. **Excel financial model** used to **consolidate the full investment**, combining:
 
-The objective is to demonstrate proficiency in:
+   * Building valuation (from ARGUS)
+   * Observatory business component
+   * Final investment return metrics
 
-* Real estate financial modeling
-* Lease abstraction and cash flow projection
-* Valuation methodology (NOI, cap rate, IRR, NPV)
-* Cross-validation between ARGUS and Excel
-
----
-
-## Files Included
-
-### ARGUS Enterprise Model
-
-* Complete property cash flow model
-* Lease structure and rollover assumptions
-* Market leasing profile
-* Valuation outputs
-
-### Excel Valuation Model
-
-* Step-by-step underwriting
-* NOI build-up
-* Discounted cash flow (DCF)
-* Sensitivity analysis
-* Final valuation outputs
+This reflects how real-world CRE underwriting separates **asset valuation** from **investment structuring**.
 
 ---
 
-## Methodology
+## Project Structure
 
-### 1. Lease Abstraction
+### Stage 1 — Building Valuation (ARGUS Enterprise)
 
-Tenant information, rent structure, and rollover assumptions were incorporated into both ARGUS and Excel.
+ARGUS is used to:
 
-**Lease summary (ARGUS):**
+* Model leases and rent roll
+* Project operating cash flows
+* Apply market leasing assumptions
+* Generate stabilized NOI
+* Determine **present value / acquisition price of the building**
 
-![Real Estate Financial Modeling](image/first.png "Real Estate Financial Modeling")
+This represents the institutional CRE valuation step.
 
+**ARGUS - Tenant Summary**
 
----
+![ESB](image/two.png "ESB Case Study")
 
-### 2. Cash Flow Modeling
+![ESB](image/three.png "ESB Case Study")
 
-Future income, reimbursements, expenses, and leasing assumptions were modeled.
+**ARGUS - Cash Flow**
 
-**Image placeholder — ARGUS Cash Flow Report:**
+![ESB](image/four.png "ESB Case Study")
 
-```
-[Insert screenshot: ARGUS Annual Cash Flow]
-```
+**ARGUS - NOI vs Cash Flow**
 
-**Image placeholder — Excel Cash Flow Sheet:**
+![ESB](image/five.png "ESB Case Study")
 
-```
-[Insert screenshot: Excel Pro Forma]
-```
+**ARGUS - Valuation Output**
 
----
-
-### 3. NOI Construction
-
-NOI calculated through revenue less operating expenses and recoveries.
-
-**Image placeholder — Excel NOI build-up:**
-
-```
-[Insert screenshot: NOI calculation table]
-```
+![ESB](image/one.png "ESB Case Study")
 
 ---
 
-### 4. Valuation Approach
+### Stage 2 — Investment Consolidation (Excel)
 
-Both models apply:
+The Excel model integrates:
 
-* Cap rate valuation
-* Discounted cash flow analysis
-* Terminal value assumptions
+* ARGUS-derived building purchase price
+* Observatory operating income
+* Capital structure assumptions
+* Investment cash flows
+* Return metrics
 
-**Image placeholder — Excel Valuation Output:**
+This reflects the **actual deal-level underwriting**.
+
+**Excel — Observatory Financials**
+
+![ESB](image/six.png "ESB Case Study")
+
+---
+
+## Financial Modeling Components
+
+### 1. Cash Flow Construction
+
+* Building operational NOI from ARGUS
+* Observatory standalone income stream
+* Combined property-level cash flow
+
+**Excel — Consolidated Pro Forma**
+
+![ESB](image/seven.png "ESB Case Study")
+
+---
+
+### 2. Valuation & Returns
+
+Excel calculates:
+
+* IRR
+* NPV
+* Equity multiple
+* Exit valuation
+* Investment performance
+
+**Image placeholder — Return Metrics**
 
 ```
-[Insert screenshot: IRR / NPV / Value summary]
-```
-
-**Image placeholder — ARGUS Valuation Summary:**
-
-```
-[Insert screenshot: Property valuation report]
+[Insert screenshot: IRR / NPV dashboard]
 ```
 
 ---
 
-### 5. Sensitivity Analysis
+### 3. Sensitivity Analysis
 
-Stress testing across cap rates, rents, and exit assumptions.
+Stress tests performed on:
 
-**Image placeholder — Excel Sensitivity Table:**
+* Cap rate
+* Purchase price
+* Observatory performance
+* Rent assumptions
+
+**Image placeholder — Sensitivity Table**
 
 ```
 [Insert screenshot: Sensitivity matrix]
@@ -112,27 +116,47 @@ Stress testing across cap rates, rents, and exit assumptions.
 
 ---
 
-## Key Outputs
+## Key Insight
 
-* Stabilized NOI
-* Levered & unlevered IRR
-* Net Present Value (NPV)
-* Exit valuation
-* Cash flow comparison: ARGUS vs Excel
+ARGUS is used for **asset valuation**.
 
-**Image placeholder — Final comparison summary:**
+Excel is used for **investment decision modeling**.
 
-```
-[Insert screenshot: Excel vs ARGUS comparison]
-```
+This mirrors real institutional workflows where:
+
+* ARGUS = property cash flow engine
+* Excel = deal structuring & capital markets analysis
 
 ---
 
-## How to Use This Case Study
+## Files Included
 
-1. Open the ARGUS file to review lease structures and institutional modeling workflow.
-2. Use the Excel file to understand assumptions and manual valuation logic.
-3. Compare outputs between both tools to validate results.
+### ARGUS Enterprise File (.ae)
+
+* Lease abstraction
+* Cash flow projections
+* NOI stabilization
+* Building present value (purchase price)
+
+### Excel Model (.xlsx)
+
+* Observatory financial model
+* Consolidated investment underwriting
+* Return metrics
+* Sensitivity analysis
+
+---
+
+## How to Navigate This Case Study
+
+1. Open the ARGUS file to review building valuation.
+2. Locate the **present value output** used as acquisition price.
+3. Open the Excel model.
+4. Review consolidation of:
+
+   * Building valuation
+   * Observatory operations
+5. Analyze final investment returns and sensitivities.
 
 ---
 
