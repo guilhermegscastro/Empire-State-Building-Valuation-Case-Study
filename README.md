@@ -129,28 +129,11 @@ Stress testing across cap rates, rents, and exit assumptions.
 
 ---
 
-## Skills Demonstrated
-
-* ARGUS Enterprise modeling
-* Advanced Excel financial modeling
-* CRE valuation methodology
-* Lease analysis and underwriting
-* Investment decision support
-
----
-
 ## How to Use This Case Study
 
 1. Open the ARGUS file to review lease structures and institutional modeling workflow.
 2. Use the Excel file to understand assumptions and manual valuation logic.
 3. Compare outputs between both tools to validate results.
-
----
-
-## Author
-
-**Guilherme Castro**
-Real Estate Financial Analyst | Data & CRE Modeling
 
 ---
 
