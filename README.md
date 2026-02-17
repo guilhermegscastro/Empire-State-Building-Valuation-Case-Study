@@ -41,11 +41,10 @@ The objective is to demonstrate proficiency in:
 
 Tenant information, rent structure, and rollover assumptions were incorporated into both ARGUS and Excel.
 
-**Image placeholder — Lease summary (ARGUS):**
+**Lease summary (ARGUS):**
 
-```
-[Insert screenshot: ARGUS Rent Roll / Lease Summary]
-```
+![Real Estate Financial Modeling](image/first.png "Real Estate Financial Modeling")
+
 
 ---
 
