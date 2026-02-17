@@ -1,6 +1,6 @@
 # ESB Case Study — ARGUS Valuation & Excel Investment Consolidation
 
-## Overview
+## 📌 Overview
 
 This case study models the valuation of the Empire State Building investment using a two-stage institutional workflow:
 
@@ -15,9 +15,9 @@ This reflects how real-world CRE underwriting separates **asset valuation** from
 
 ---
 
-## Project Structure
+## 🏢 Project Structure
 
-### Stage 1 — Building Valuation (ARGUS Enterprise)
+### 📊 Stage 1 — Building Valuation (ARGUS Enterprise)
 
 ARGUS is used to:
 
@@ -49,7 +49,7 @@ This represents the institutional CRE valuation step.
 
 ---
 
-### Stage 2 — Investment Consolidation (Excel)
+### 📊 Stage 2 — Investment Consolidation (Excel)
 
 The Excel model integrates:
 
@@ -67,7 +67,7 @@ This reflects the **actual deal-level underwriting**.
 
 ---
 
-## Financial Modeling Components
+## 📈 Financial Modeling Components
 
 ### 1. Cash Flow Construction
 
@@ -116,20 +116,7 @@ Stress tests performed on:
 
 ---
 
-## Key Insight
-
-ARGUS is used for **asset valuation**.
-
-Excel is used for **investment decision modeling**.
-
-This mirrors real institutional workflows where:
-
-* ARGUS = property cash flow engine
-* Excel = deal structuring & capital markets analysis
-
----
-
-## Files Included
+## 🛠️ Files Included
 
 ### ARGUS Enterprise File (.ae)
 
@@ -157,9 +144,13 @@ This mirrors real institutional workflows where:
    * Observatory operations
 4. Analyze final investment returns and sensitivities (Property Summary).
 
+## 📎 References
+
+* [CRE Analyst Valuation in Argus](https://www.creanalyst.com/argustraining)
+
 ---
 
-## Notes
+✅ This project is intended for educational and portfolio purposes, demonstrating real estate underwriting and valuation proficiency using industry tools.
 
-This project is intended for educational and portfolio purposes, demonstrating real estate underwriting and valuation proficiency using industry tools.
+---
 
