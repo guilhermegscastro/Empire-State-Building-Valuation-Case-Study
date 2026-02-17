@@ -199,6 +199,9 @@ Investment structuring reflects institutional financing conditions:
 ## 📎 References
 
 * [CRE Analyst Valuation in Argus](https://www.creanalyst.com/argustraining)
+* https://www.cbre.com/press-releases/commercial-real-estate-lending-momentum-reaches-highest-level-since-2018-cbre
+* Oxford Economics | City Economic Forecast | New York | Oct/2024
+* Green Street | Office Market Snapshot | New York | 2024
 
 ---
 
