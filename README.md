@@ -100,6 +100,70 @@ Stress tests performed on:
 
 ---
 
+## Final Valuation Summary
+
+| Component | Estimated Value |
+|---|---|
+| Building (Real Estate Operations) | ~$900M |
+| Observatory (Operating Business) | ~$1.2B |
+| **Total Asset Value** | **~$2.1B** |
+
+## Likely Buyer Profile
+
+The underwriting aligns with a **Core+ investor** strategy:
+
+- Sovereign wealth funds  
+- Insurance capital  
+- Public REITs  
+- Long-term institutional holders
+
+Characteristics:
+
+- Focus on durable income  
+- Moderate leverage  
+- Long hold horizon  
+- Trophy asset positioning  
+- Inflation hedge exposure
+
+## Primary Investment Metric
+
+The analysis emphasizes **unleveraged IRR** as the primary performance metric.
+
+Rationale:
+
+- Aligns with Core+ acquisition strategies  
+- Reflects intrinsic asset performance  
+- Avoids distortion from leverage structuring  
+- Supports institutional investment decision-making  
+
+---
+
+## Key Assumptions
+
+### Valuation & Discounting
+- Building discount rate: ~8%  
+- Observatory discount rate: ~9%  
+- Building Exit cap rate: ~7%  
+- Observatory Exit cap rate: ~8%
+
+### Operating Assumptions
+- Vacancy: ~10%  
+- Rent growth: ~3% annually  
+- Expense growth: ~3% annually  
+
+---
+
+## Capital Markets Assumptions
+
+Investment structuring reflects institutional financing conditions:
+
+- Expected leverage: ~50% LTV  
+- Debt source: insurance / CMBS-style financing  
+- Interest rate environment: ~7%  
+- Long-term fixed-rate orientation  
+
+---
+
 ## 🛠️ Files Included
 
 ### ARGUS Enterprise File (.avux)
