@@ -1,211 +1,160 @@
-🏙️ Empire State Building Valuation Case Study
+# ESB Case Study — ARGUS Enterprise & Excel Valuation
 
-ARGUS Enterprise + Excel Investment Model
+## Overview
 
-📌 Overview
+This case study analyzes a commercial real estate asset using two industry-standard approaches:
 
-This project presents a full institutional-grade CRE valuation of the Empire State Building using:
+* **ARGUS Enterprise model (.ae file)** for institutional-grade cash flow modeling
+* **Excel financial model (.xlsx)** for transparent, manual underwriting and validation
 
-ARGUS Enterprise for lease-level cash flow modeling
+The objective is to demonstrate proficiency in:
 
-Excel for valuation, observatory underwriting, financing, and equity waterfall
+* Real estate financial modeling
+* Lease abstraction and cash flow projection
+* Valuation methodology (NOI, cap rate, IRR, NPV)
+* Cross-validation between ARGUS and Excel
 
-The objective was to simulate how investment and brokerage teams underwrite complex mixed-use assets where traditional lease income and operating-business income must be modeled separately.
+---
 
-🖼️ Project Snapshot (Final Output)
+## Files Included
 
-Insert here:
+### ARGUS Enterprise Model
 
-Final consolidated valuation output from Excel
+* Complete property cash flow model
+* Lease structure and rollover assumptions
+* Market leasing profile
+* Valuation outputs
 
-Total asset value + NOI + return metrics
+### Excel Valuation Model
 
-[ IMAGE PLACEHOLDER — Final Valuation Summary / Investment Dashboard ]
+* Step-by-step underwriting
+* NOI build-up
+* Discounted cash flow (DCF)
+* Sensitivity analysis
+* Final valuation outputs
 
-📁 Project Files
-ARGUS Enterprise Model
+---
 
-Rent roll modeling
+## Methodology
 
-Market leasing assumptions
+### 1. Lease Abstraction
 
-Renewal probability & downtime
+Tenant information, rent structure, and rollover assumptions were incorporated into both ARGUS and Excel.
 
-TI/LC and rollover modeling
+**Image placeholder — Lease summary (ARGUS):**
 
-Vacancy & credit loss
+```
+[Insert screenshot: ARGUS Rent Roll / Lease Summary]
+```
 
-10-year hold cash flow projection
+---
 
-Exit cap and reversion
+### 2. Cash Flow Modeling
 
-Excel Investment Model
+Future income, reimbursements, expenses, and leasing assumptions were modeled.
 
-Observatory financial model
+**Image placeholder — ARGUS Cash Flow Report:**
 
-Building proforma
+```
+[Insert screenshot: ARGUS Annual Cash Flow]
+```
 
-ARGUS output integration
+**Image placeholder — Excel Cash Flow Sheet:**
 
-DCF valuation
+```
+[Insert screenshot: Excel Pro Forma]
+```
 
-Loan amortization
+---
 
-Equity waterfall
+### 3. NOI Construction
 
-Investor return metrics (IRR, equity multiple)
+NOI calculated through revenue less operating expenses and recoveries.
 
-ARGUS Modeling
-Cash Flow Summary (Core ARGUS Output)
+**Image placeholder — Excel NOI build-up:**
 
-Shows stabilized performance and leasing risk impact.
+```
+[Insert screenshot: NOI calculation table]
+```
 
-[ IMAGE PLACEHOLDER — ARGUS Cash Flow Summary (NOI, leasing costs, reversion) ]
+---
 
-Rent Roll Complexity
+### 4. Valuation Approach
 
-Demonstrates tenant mix, lease structures, and rollover exposure.
+Both models apply:
 
-[ IMAGE PLACEHOLDER — ARGUS Rent Roll Snippet ]
+* Cap rate valuation
+* Discounted cash flow analysis
+* Terminal value assumptions
 
-Market Leasing Assumptions
+**Image placeholder — Excel Valuation Output:**
 
-Key underwriting inputs driving cash flow projections.
+```
+[Insert screenshot: IRR / NPV / Value summary]
+```
 
-[ IMAGE PLACEHOLDER — ARGUS Market Leasing (downtime, TI/LC, renewals) ]
+**Image placeholder — ARGUS Valuation Summary:**
 
-Exit & Reversion
+```
+[Insert screenshot: Property valuation report]
+```
 
-Terminal valuation mechanics used in institutional underwriting.
+---
 
-[ IMAGE PLACEHOLDER — ARGUS Reversion / Exit Cap Screen ]
+### 5. Sensitivity Analysis
 
-Excel Modeling
-Observatory Revenue Model
+Stress testing across cap rates, rents, and exit assumptions.
 
-Separate underwriting of operating-business income.
+**Image placeholder — Excel Sensitivity Table:**
 
-[ IMAGE PLACEHOLDER — Observatory Revenue & NOI Build ]
+```
+[Insert screenshot: Sensitivity matrix]
+```
 
-Consolidated Property Proforma
+---
 
-Integration of ARGUS lease income + observatory operations.
+## Key Outputs
 
-[ IMAGE PLACEHOLDER — Combined Property Cash Flow ]
+* Stabilized NOI
+* Levered & unlevered IRR
+* Net Present Value (NPV)
+* Exit valuation
+* Cash flow comparison: ARGUS vs Excel
 
-DCF Valuation
+**Image placeholder — Final comparison summary:**
 
-Present value analysis and terminal value assumptions.
+```
+[Insert screenshot: Excel vs ARGUS comparison]
+```
 
-[ IMAGE PLACEHOLDER — DCF Section (discount rate, exit cap, PV) ]
+---
 
-Debt Modeling
+## Skills Demonstrated
 
-Capital structure and debt service profile.
+* ARGUS Enterprise modeling
+* Advanced Excel financial modeling
+* CRE valuation methodology
+* Lease analysis and underwriting
+* Investment decision support
 
-[ IMAGE PLACEHOLDER — Loan Amortization / DSCR / LTV ]
+---
 
-Equity Waterfall
+## How to Use This Case Study
 
-Investor vs sponsor distribution structure.
+1. Open the ARGUS file to review lease structures and institutional modeling workflow.
+2. Use the Excel file to understand assumptions and manual valuation logic.
+3. Compare outputs between both tools to validate results.
 
-[ IMAGE PLACEHOLDER — Waterfall Returns ]
+---
 
-🧠 Modeling Approach
-Step 1 — Lease Modeling (ARGUS)
+## Author
 
-Modeled office, retail, and antenna leases
+**Guilherme Castro**
+Real Estate Financial Analyst | Data & CRE Modeling
 
-Applied market leasing profiles
+---
 
-Modeled rollover risk, TI/LC, downtime
+## Notes
 
-Generated stabilized property cash flows
+This project is intended for educational and portfolio purposes, demonstrating real estate underwriting and valuation proficiency using industry tools.
 
-Step 2 — Observatory Valuation (Excel)
-
-Revenue projections
-
-Expense and margin assumptions
-
-NOI stabilization
-
-Separate cap-rate valuation
-
-Step 3 — Integration
-
-Imported ARGUS outputs
-
-Combined lease NOI + observatory NOI
-
-Built consolidated proforma
-
-Step 4 — Investment Returns
-
-Debt modeling
-
-Levered cash flows
-
-Equity waterfall
-
-IRR & equity multiple
-
-📊 Investment Insights
-
-Key value drivers identified in the model:
-
-Observatory income contributes materially to total asset value
-
-Lease rollover concentration impacts early hold-period risk
-
-Exit cap sensitivity significantly affects valuation
-
-Debt structure meaningfully changes investor IRR
-
-(Optional: later you can replace with quantified insights)
-
-💼 Skills Demonstrated
-
-ARGUS Enterprise modeling
-
-CRE underwriting
-
-Lease structure analysis
-
-Advanced Excel financial modeling
-
-DCF & cap-rate valuation
-
-Debt structuring
-
-Equity waterfall modeling
-
-Institutional investment case presentation
-
-🚀 How to Navigate the Project
-
-Open ARGUS model
-
-Review lease inputs and assumptions
-
-Open Excel model
-
-Start at property summary
-
-Review observatory analysis
-
-Review building proforma
-
-Review valuation and returns
-
-Review investment outputs
-
-Cash flow
-
-Debt structure
-
-Investor returns
-
-🧾 Disclaimer
-
-This project is for educational and portfolio purposes only and does not represent investment advice.
