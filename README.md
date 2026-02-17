@@ -75,10 +75,6 @@ This reflects the **actual deal-level underwriting**.
 * Observatory standalone income stream
 * Combined property-level cash flow
 
-**Excel — Consolidated Pro Forma**
-
-![ESB](image/seven.png "ESB Case Study")
-
 ---
 
 ### 2. Valuation & Returns
@@ -91,12 +87,6 @@ Excel calculates:
 * Exit valuation
 * Investment performance
 
-**Image placeholder — Return Metrics**
-
-```
-[Insert screenshot: IRR / NPV dashboard]
-```
-
 ---
 
 ### 3. Sensitivity Analysis
@@ -108,11 +98,9 @@ Stress tests performed on:
 * Observatory performance
 * Rent assumptions
 
-**Image placeholder — Sensitivity Table**
+**Excel — Consolidated Pro Forma**
 
-```
-[Insert screenshot: Sensitivity matrix]
-```
+![ESB](image/seven.png "ESB Case Study")
 
 ---
 
